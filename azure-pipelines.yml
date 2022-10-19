@@ -16,7 +16,7 @@ steps:
     azureResourceManagerConnection: 'armdeploy'
     subscriptionId: '698cb4ff-b85a-47f4-a3c0-4d8599beeead'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMDEPLOY'
+    resourceGroupName: 'armdeploy'
     location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.SourcesDirectory)/webapp/armdeploy.json'
