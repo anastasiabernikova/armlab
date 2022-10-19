@@ -17,7 +17,7 @@ steps:
     subscriptionId: 'd30441d6-496b-483b-8877-f337b4c9bbe1'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMDEPLOY'
-    location: 'West Us'
+    location: 'West Europe'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.SourcesDirectory)/webapp/armdeploy.json'
     csmParametersFile: '$(Build.SourcesDirectory)/webapp/armparam.json'
