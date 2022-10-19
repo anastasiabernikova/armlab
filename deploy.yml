@@ -14,7 +14,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'armlab'
-    subscriptionId: 'c7d4ef2e-d5ee-4cd2-b88c-c435f6281b52'
+    subscriptionId: 'd30441d6-496b-483b-8877-f337b4c9bbe1'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'lalauu'
     location: 'West Us'
